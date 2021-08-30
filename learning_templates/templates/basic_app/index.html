@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+    <h1>welcome to index</h1>
+    <h2>this is index.html showing</h2>
+    <!-- to know more about this search django filters -->
+    {{ hello }}
+    {{ number| add:"99" }}
+    {% endblock %}
